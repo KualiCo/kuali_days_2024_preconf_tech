@@ -1,0 +1,36 @@
+query App ($id: ID!, $args: ConnectionInput) {
+  app(id: $id) {
+    name
+    id
+    documentConnection(args: $args) {
+      totalCount
+      edges {
+        node {
+          id
+          status
+          data
+          workflow {
+            simulation
+          }
+        }
+      }
+    }
+  }
+}
+
+Variables:
+{
+  "id": "6153a814faadcf48295fb386",
+  "args": {
+   "fields": {
+      "type": "IS",
+      "operators": [
+        {
+          "field": "node.data.5iDF3PWLVM.data.categoryId",
+          "type": "IS",
+          "value": "6054d1fc9838b50052405340"
+        }
+      ]
+    }
+  }
+}

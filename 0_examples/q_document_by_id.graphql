@@ -1,0 +1,14 @@
+query Document ($id: ID!) {
+  document(id: $id) {
+    data
+    meta
+    workflow {
+      simulation
+    }
+  }
+}
+
+Variables:
+{
+  "id": "6595eb6ca28fe4e6dc04770d"
+}

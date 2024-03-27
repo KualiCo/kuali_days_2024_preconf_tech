@@ -1,0 +1,13 @@
+mutation UpdateDocument ($args: UpdateDocumentInput!) {
+  updateDocument(args: $args) {
+    id
+  }
+}
+
+Variables:
+{
+  "args": {
+  "data": {"startDate": "1900-01-01"},
+  "id": "6478bde553444d02cb9257da"
+  }
+}

@@ -1,0 +1,11 @@
+query Integration ($id: ID!) {
+  integration(id: $id) {
+    name
+    data
+  }
+}
+
+Variables:
+{
+  "id": "6153a646fa2ee52e014e1db9"
+}

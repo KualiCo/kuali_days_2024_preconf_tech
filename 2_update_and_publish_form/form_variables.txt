@@ -1,0 +1,69 @@
+Variables: 
+{
+    "appId": "YOUR APP ID GOES HERE",
+    "template": {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "customFormKey": {
+                        "enabled": true,
+                        "value": "state"
+                      },
+                      "formKey": "iG3SbTy5Oy",
+                      "id": "eq8pvZMLw",
+                      "label": "State",
+                      "type": "Text"
+                    },
+                    {
+                      "customFormKey": {
+                        "enabled": true,
+                        "value": "abbr"
+                      },
+                      "formKey": "3oRkNaUEJ8",
+                      "id": "4IBDYezA3",
+                      "label": "Abbreviation",
+                      "type": "Text"
+                    }
+                  ],
+                  "id": "RAvmjhUbqa",
+                  "type": "Row"
+                },
+                {
+                  "children": [
+                    {
+                      "customFormKey": {
+                        "enabled": true,
+                        "value": "latitude"
+                      },
+                      "formKey": "hxRieJeS0r",
+                      "id": "_4M7__-j2",
+                      "label": "Latitude",
+                      "type": "Text"
+                    },
+                    {
+                      "customFormKey": {
+                        "enabled": true,
+                        "value": "longitude"
+                      },
+                      "formKey": "x-QotFvnL1",
+                      "id": "QiwqJXqJH",
+                      "label": "Longitude",
+                      "type": "Text"
+                    }
+                  ],
+                  "id": "WQOZWoBt3i",
+                  "type": "Row"
+                }
+              ],
+              "id": "w5kp0Bm64i",
+              "type": "Column"
+            }
+          ],
+          "id": "6Pevo4rE9",
+          "label": "States",
+          "type": "Section"
+    }
+}

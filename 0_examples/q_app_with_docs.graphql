@@ -1,0 +1,14 @@
+query App ($id: ID!) {
+  app (id: $id) {
+    name
+    id
+    documentCount
+    documentConnection {
+      edges {
+        node {
+          data
+        }
+      }
+    }
+  }
+}

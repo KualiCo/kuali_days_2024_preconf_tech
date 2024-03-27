@@ -1,0 +1,6 @@
+Variables:
+{
+  "name": "States",
+  "color": "#333333",
+  "iconName": "bicycle.svg"
+}
