@@ -1,0 +1,12 @@
+mutation CreateApp ($name: String!, $color: String!, $iconName: String!) {
+  createAppTile (args: { name: $name, backgroundColor: $color, iconName: $iconName}) {
+    name
+  }
+}
+
+Variables:
+{
+  "name": "States",
+  "color": "#333333",
+  "iconName": "bicycle.svg"
+}

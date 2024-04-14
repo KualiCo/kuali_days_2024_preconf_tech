@@ -1,0 +1,12 @@
+mutation PublishApp($id: ID!, $pageId: ID, $showDraft: Boolean) {
+  publishApp(args: {id: $id, pageId: $pageId, showDraft: $showDraft}) {
+    id
+    hasDraft
+  }
+}
+
+Variables:
+{
+  "id": "65d7e1d6f9a011013c73290b",
+  "showDraft": true
+}
